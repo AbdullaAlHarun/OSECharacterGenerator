@@ -1,7 +1,13 @@
 namespace OSECharacterGenerator.Helpers;
 
+/// <summary>
+/// Provides ability score modifier calculations.
+/// </summary>
 public static class ModifierHelper
 {
+    /// <summary>
+    /// Returns the modifier value for a given ability score.
+    /// </summary>
     public static int GetModifier(int score)
     {
         return score switch
